@@ -8,6 +8,7 @@ const onUpdateActiveLink=(value) =>{
 setActiveLink(value)
 }
 
+//this is function for links
 function BasicExample() {
     const [activeLink, SetactiveLink] = useState('home')
 
