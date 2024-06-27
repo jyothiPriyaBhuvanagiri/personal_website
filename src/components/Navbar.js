@@ -3,13 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 import {useEffect, useState} from "react";
+import navIcon1 from '../asset/img/nav-icon1.svg'
+import navIcon2 from '../asset/img/nav-icon2.svg'
+import navIcon3 from '../asset/img/nav-icon3.svg'
+import logo from  '../asset/img/logo.svg'
 
-const onUpdateActiveLink=(value) =>{
-setActiveLink(value)
-}
 
 //this is function for links
-function BasicExample() {
+function NavBar() {
     const [activeLink, SetactiveLink] = useState('home')
 
     const [scrolled, setScrolled] = useState(false)
@@ -28,11 +29,15 @@ function BasicExample() {
         return() => window.removeEventListener("scroll", onScroll)
 
     }, []);
+
+    const onUpdateActiveLink=(value) =>{
+        SetactiveLink(value)
+    }
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled":"" }>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={/* Provide the path to your logo image */} alt="Logo" />
+                    <img src={logo} alt="Logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -46,9 +51,9 @@ function BasicExample() {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={} alt="" /></a>
-                            <a href="#"><img src={} alt="" /></a>
-                            <a href="#"><img src={} alt="" /></a>
+                            <a href="#"><img src={navIcon1} alt="" /></a>
+                            <a href="#"><img src={navIcon2} alt="" /></a>
+                            <a href="#"><img src={navIcon3} alt="" /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connected')}>
                             <span>Lets Connect</span>
@@ -60,4 +65,4 @@ function BasicExample() {
     );
 }
 
-export default BasicExample;
+export default NavBar;
