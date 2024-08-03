@@ -1,19 +1,23 @@
 import './App.css';
-import NavBar from './components/Navbar';
+import {NavBar} from './components/NavBar';
 import {Banner} from './components/Banner'
 import {Skills} from './components/skills'
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
 import {Projects} from "./components/projects";
-import {ProjectCard} from "./components/ProjectCard";
+import {Contact} from "./components/contact";
+import {Footer} from "./components/Footer";
+import {Resume}  from './components/resume';
+
 
 function App() {
   return (
     <div className="App">
-<NavBar></NavBar>
+        <NavBar></NavBar>
         <Banner></Banner>
         <Skills></Skills>
-        <Projects></Projects>
-
+        <Contact></Contact>
+        <Resume></Resume>
+        <Footer></Footer>
     </div>
   );
 }
