@@ -3,35 +3,28 @@
 # Portfolio build in react and Deployed With GitHub 
 
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://jyothipriyabhuvanagiri.github.io/personal_website/).
 
 ---
 
 ## Table of Contents :scroll:
 
 - [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
 - [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
 - [Packages Used](#packages-used-package)
 
 ---
 
 # Sections :bookmark:
 
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
+- HOME
 - SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
+- EXPERIENCE
+
 
 ---
 
-# Installation :arrow_down:
+# Installation
 
 ### You will need to download Git and Node to run this project
 
@@ -54,9 +47,9 @@ git --version
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/jyothiPriyaBhuvanagiri/personal_website
 
-cd developer-portfolio
+cd personal_website
 ```
 
 ### Install packages from the root directory
@@ -86,15 +79,23 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # Packages Used :package:
 
-| Used Package List  |
-| :----------------: |
-|        next        |
-|  @emailjs/browser  |
-|    lottie-react    |
-| react-fast-marquee |
-|    react-icons     |
-|   react-toastify   |
-|        sass        |
-|    tailwindcss     |
+| Used Package List                 |
+| :--------------------------------: |
+|         animate.css                |
+|         bootstrap                  |
+|   react-bootstrap                  |
+|   react-bootstrap-icons            |
+|       react-fast-marquee           |
+|         react-icons                |
+|     react-multi-carousel           |
+|      react-on-screen               |
+|        react-pdf                   |
+|     react-router-dom               |
+| react-router-hash-link             |
+|     react-scripts                  |
+|     react-tsparticles              |
+| react-vertical-timeline-component  |
+|             sass                   |
+|         tailwindcss               |
 
 ---
