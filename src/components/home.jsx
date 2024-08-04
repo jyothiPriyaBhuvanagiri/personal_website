@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import Container from "react-bootstrap/Container";
-import { Row, Col } from "react-bootstrap";
+import {Row, Col} from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import headerImg from "../asset/img/header-img.svg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import {ArrowRightCircle} from 'react-bootstrap-icons';
 import 'animate.css'
+
 export const Home = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 300);
@@ -55,21 +56,24 @@ export const Home = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
-                            {({ isVisible }) =>
+                            {({isVisible}) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
                                     <h1>{`Hi! I'm Jyothipriya`} </h1>
                                     <h2><span className="txt-rotate"></span>
-                                        <span className="wrap">{text}</span> </h2>
+                                        <span className="wrap">{text}</span></h2>
 
                                 </div>}
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <TrackVisibility>
-                            {({ isVisible }) =>
+                            {({isVisible}) =>
                                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                    <img src={headerImg} alt="Header Img" />
+                                    <img style={{
+                                        width: "100%",
+                                        height: "auto",
+                                    }} src={headerImg} alt="Header Img"/>
                                 </div>}
                         </TrackVisibility>
                     </Col>
