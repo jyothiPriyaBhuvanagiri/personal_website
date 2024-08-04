@@ -1,10 +1,10 @@
 import './App.css';
 import {NavBar} from './components/NavBar';
 import {Banner} from './components/Banner'
-import {Skills} from './components/skills'
+import Skills from "./components/Skills";
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
-import {Contact} from "./components/contact";
 import {Footer} from "./components/Footer";
+import Experience from "./components/Experience";
 
 
 function App() {
@@ -13,10 +13,13 @@ function App() {
         <NavBar></NavBar>
         <Banner></Banner>
         <Skills></Skills>
-        <Contact></Contact>
+        <Experience></Experience>
         <Footer></Footer>
     </div>
   );
 }
+
+
+
 
 export default App;
