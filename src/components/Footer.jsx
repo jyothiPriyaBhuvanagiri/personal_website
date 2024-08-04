@@ -18,7 +18,6 @@ export const Footer = () => {
                                 <img src={navIcon1} alt="LinkedIn" />
                             </a>
                         </div>
-                        <p className="rights">Copyright 2024. All Rights Reserved</p>
                     </Col>
                 </Row>
             </Container>
