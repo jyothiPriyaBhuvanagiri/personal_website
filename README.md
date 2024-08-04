@@ -1,16 +1,6 @@
 
 ---
-# Built Portfolio With GitHub 
-
----
-
-# Developer Portfolio
-
-
----
-
-# Demo :movie_camera:
-
+# Portfolio build in react and Deployed With GitHub 
 
 
 ## View live preview [here](https://abusaid.netlify.app/).
