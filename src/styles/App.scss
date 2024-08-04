@@ -62,10 +62,6 @@ a:hover {
   text-decoration: none;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
 
 button {
   border: 0;
@@ -327,19 +323,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #fff;
+  color: #fff !important;
   text-align: center;
 }
-
-.skill-icon {
-  font-size: 180%;
-  color: white;
-  text-align: center;
-  position: relative;
-}
-
-
-
 
 
 .social-links {
