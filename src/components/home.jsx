@@ -5,7 +5,7 @@ import TrackVisibility from 'react-on-screen';
 import headerImg from "../asset/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css'
-export const Banner = () => {
+export const Home = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 300);
     const [loopNum, setLoopNum] = useState(0);
