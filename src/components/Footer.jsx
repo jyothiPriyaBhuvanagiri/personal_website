@@ -4,7 +4,7 @@ import navIcon1 from "../asset/img/nav-icon1.svg";
 import navIcon2 from "../asset/img/nav-icon2.svg";
 import navIcon3 from "../asset/img/nav-icon3.svg";
 
-
+//this is for footer
 export const Footer = () => {
     return (
         <footer className="footer">
