@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal_website/static/css/main.242ea1d4.css",
-    "main.js": "/personal_website/static/js/main.311ae833.js",
+    "main.js": "/personal_website/static/js/main.5650dceb.js",
     "static/media/banner-bg.png": "/personal_website/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/personal_website/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/personal_website/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -86,10 +86,10 @@
     "static/media/vuetifyjs.svg": "/personal_website/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/personal_website/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.242ea1d4.css.map": "/personal_website/static/css/main.242ea1d4.css.map",
-    "main.311ae833.js.map": "/personal_website/static/js/main.311ae833.js.map"
+    "main.5650dceb.js.map": "/personal_website/static/js/main.5650dceb.js.map"
   },
   "entrypoints": [
     "static/css/main.242ea1d4.css",
-    "static/js/main.311ae833.js"
+    "static/js/main.5650dceb.js"
   ]
 }
