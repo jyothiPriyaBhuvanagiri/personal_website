@@ -17,14 +17,7 @@ export const experienceData = {
             mainTech: ["JavaScript", "REST APIs", "Python"],
             ProjectName: ["RIOT Project"],
         },
-        {
-            title: "Master Thesis",
-            company: "Technische Universität Chemnitz",
-            years: "Feb 2024 - July 2024",
-            mainTech: ["Python","Danjo"],
-            ProjectName: ["Integration of FIRE into Decentralized-web"],
 
-        },
         {
             title: "Student Project Member",
             company: "Technische Universität Chemnitz",
@@ -41,5 +34,6 @@ export const experienceData = {
             ProjectName: ["Development of Dynamic Web Applications"],
 
         },
+
     ],
 };
