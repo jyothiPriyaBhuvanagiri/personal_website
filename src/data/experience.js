@@ -6,7 +6,7 @@ export const experienceData = {
             title: "Research Assistant",
             company: "Technische Universität Chemnitz",
             years: "March 2024 - Present",
-            mainTech: ["React Js", "CSS"],
+            mainTech: ["React Js", "CSS", "Prisma Studio"],
             ProjectName: ["Specscribe"],
 
         },
@@ -17,7 +17,6 @@ export const experienceData = {
             mainTech: ["JavaScript", "REST APIs", "Python"],
             ProjectName: ["RIOT Project"],
         },
-
         {
             title: "Student Project Member",
             company: "Technische Universität Chemnitz",
