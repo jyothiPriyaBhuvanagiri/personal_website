@@ -21,7 +21,7 @@ export const experienceData = {
             title: "Student Project Member",
             company: "Technische Universität Chemnitz",
             years: "Nov 2022 - May 2023",
-            mainTech: ["Python", "Flask"],
+            mainTech: ["Python", "Flask", "Docker"],
             ProjectName: ["Development of Web Interface and Browser Extension"],
 
         },
@@ -31,6 +31,13 @@ export const experienceData = {
             years: "Aug 2020 - April 2021",
             mainTech: ["JavaScript", "HTML", "CSS"],
             ProjectName: ["Development of Dynamic Web Applications"],
+
+        },
+        {
+            title: "Software Developer",
+            company: "Personal Project",
+            mainTech: ["JavaScript", "HTML", "Mongodb", "express.js", "Docker"],
+            ProjectName: ["Development of Plugin for Storing Notes"],
 
         },
 
