@@ -3,7 +3,7 @@ export const experienceData = {
     work: [
   {
             title: "Software Developer",
-            company: "TIK Stuttgart",
+            company: "TIK University Stuttgart",
             years: "May 2025 - December 2025",
             mainTech: ["React.js", "Github Actions" ,"TypeScript", "Docker", "Python", "Playwright", "XML", "Java", "Nginx" ,"CI/CD"],
             ProjectName: ["BW-Opencast"],
