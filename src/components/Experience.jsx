@@ -46,17 +46,17 @@ const Experience = () => {
                                             {job.company}
                                         </h4>
                                     </div>
-                                    <div style={{textAlign: "left", marginTop: "14px"}}>
+                                    <div style={{textAlign: "left",  flexWrap: "wrap", marginTop: "14px"}}>
                                         {job.ProjectName.map((tech, i) => (
                                             <Badge pill className="experience-badge mr-2 mb-2" key={i}>
                                                 {tech}
                                             </Badge>
                                         ))}
                                     </div>
-                                    <div style={{textAlign: "left", marginBottom: "3px"}}>
-                                        {job.mainTech.map((tech, i) => (
-                                            <Badge pill className="main-badge mr-2 mb-2" key={i}>
-                                                {tech}
+                                   <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", marginTop: "10px" }}>
+                                            {job.mainTech.map((tech, i) => (
+                                            <Badge pill className="main-badge" key={i}>
+                                                 {tech}
                                             </Badge>
                                         ))}
                                     </div>

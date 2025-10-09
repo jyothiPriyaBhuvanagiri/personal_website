@@ -1,7 +1,14 @@
 export const experienceData = {
     sectionName: "Experience",
     work: [
+  {
+            title: "Software Developer",
+            company: "TIK Stuttgart",
+            years: "May 2025 - December 2025",
+            mainTech: ["React.js", "Github Actions" ,"TypeScript", "Docker", "Python", "Playwright", "XML", "Java", "Nginx" ,"CI/CD"],
+            ProjectName: ["BW-Opencast"],
 
+        },
         {
             title: "Research Assistant",
             company: "Technische Universität Chemnitz",
@@ -36,10 +43,13 @@ export const experienceData = {
         {
             title: "Software Developer",
             company: "Personal Project",
+            years: "Aug 2020 - April 2021",
             mainTech: ["JavaScript", "HTML", "Mongodb", "express.js", "Docker"],
             ProjectName: ["Development of Plugin for Storing Notes"],
 
         },
+       
+
 
     ],
 };
